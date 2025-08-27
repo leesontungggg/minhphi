@@ -1,10 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import BlogPost from "@/components/quotation";
-import FilmSection from "@/components/film-section";
-import FineArtSection from "@/components/fine-art";
-import PerformanceSection from "@/components/performance-section";
-import SubscribeNewsletter from "@/components/subscribe";
-import WorkshopAndTalkshowSection from "@/components/workshop-n-talkshow-section";
 import React from "react";
 
 export default function Programmes() {
