@@ -1,31 +1,17 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import { Button } from "@/components/ui/button";
-import { Search, Menu, X } from "lucide-react";
+import { Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Input } from "@/components/ui/input";
 import Link from "next/link";
 
 export default function Navbar() {
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const searchInputRef = useRef<HTMLInputElement>(null);
-
-  const toggleSearch = () => {
-    setIsSearchOpen(!isSearchOpen);
-  };
-
-  useEffect(() => {
-    if (isSearchOpen && searchInputRef.current) {
-      searchInputRef.current.focus();
-    }
-  }, [isSearchOpen]);
-
   return (
-    <header className="relative bg-[#3669B5] text-white !font-oswald">
+    <header className="bg-[#3669B5] text-white !font-oswald fixed z-10 w-full">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <div className="text-white font-bold text-2xl font-poller">
+        <div className="text-white font-normal text-2xl font-poller uppercase">
           Minh Phi
         </div>
 
@@ -68,7 +54,7 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-2">
-          <nav className="flex items-center">
+          <nav className="flex items-center space-x-8">
             <Link
               href="/about"
               className="text-white text-sm font-medium uppercase px-4 py-5"
@@ -108,37 +94,6 @@ export default function Navbar() {
               Liên hệ
             </Link>
           </nav>
-
-          {/* Search Button/Input */}
-          <div className="relative ml-4">
-            {isSearchOpen ? (
-              <div className="flex items-center absolute right-0 top-0 bg-black bg-opacity-90 p-1 rounded">
-                <Input
-                  ref={searchInputRef}
-                  type="text"
-                  placeholder="Search..."
-                  className="bg-transparent border-b border-white text-white w-48 focus:outline-none h-8"
-                />
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="text-white h-8 w-8"
-                  onClick={toggleSearch}
-                >
-                  <X className="h-4 w-4" />
-                </Button>
-              </div>
-            ) : (
-              <Button
-                variant="ghost"
-                size="icon"
-                className="text-white"
-                onClick={toggleSearch}
-              >
-                <Search className="h-5 w-5" />
-              </Button>
-            )}
-          </div>
         </div>
       </div>
     </header>
