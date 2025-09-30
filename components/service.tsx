@@ -9,15 +9,15 @@ export default function ServiceSection() {
           Dịch Vụ
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-[32px] font-manrope">
           {/* Left Column */}
           <div className="space-y-10">
             {/* Offset Printing Section */}
             <div>
-              <h2 className="text-xl font-bold mb-1 dark:text-gray-200 uppercase">
+              <h2 className="text-3xl font-bold mb-1 dark:text-gray-200 uppercase">
                 IN OFFSET
               </h2>
-              <p className="text-gray-700 mb-4 dark:text-gray-300 text-xl">
+              <p className="text-gray-700 mb-4 dark:text-gray-300 text-3xl">
                 Số lượng lớn, giá tối ưu
               </p>
 
@@ -59,7 +59,7 @@ export default function ServiceSection() {
 
             {/* Label Printing Section */}
             <div>
-              <h2 className="text-xl font-bold uppercase mb-1 dark:text-gray-200">
+              <h2 className="text-3xl font-bold uppercase mb-1 dark:text-gray-200">
                 IN TEM NHÃN, DECAL
               </h2>
 
@@ -85,7 +85,7 @@ export default function ServiceSection() {
 
             {/* Packaging Design Section */}
             <div>
-              <h2 className="text-xl font-bold uppercase mb-1 dark:text-gray-200">
+              <h2 className="text-3xl font-bold uppercase mb-1 dark:text-gray-200">
                 THIẾT KẾ BAO BÌ VÀ ĐÓNG GÓI
               </h2>
 
@@ -112,10 +112,10 @@ export default function ServiceSection() {
           <div>
             {/* Digital Printing Section */}
             <div className="border-l border-gray-300 pl-8 h-full dark:border-gray-600">
-              <h2 className="text-xl font-bold uppercase mb-1 dark:text-gray-200">
+              <h2 className="text-3xl font-bold uppercase mb-1 dark:text-gray-200">
                 IN KỸ THUẬT SỐ
               </h2>
-              <p className="text-gray-700 mb-4 dark:text-gray-300 text-xl">
+              <p className="text-gray-700 mb-4 dark:text-gray-300 text-3xl">
                 Linh hoạt, nhanh chóng
               </p>
 

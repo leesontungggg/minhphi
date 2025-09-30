@@ -12,7 +12,9 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
         <div className="text-white font-normal text-2xl font-poller uppercase">
-          Minh Phi
+          <Link href="/" className="text-white  text-2xl uppercase">
+            Minh Phi
+          </Link>
         </div>
 
         {/* Mobile Menu */}

@@ -4,7 +4,7 @@ export default function QuotationPage() {
   return (
     <div className="bg-[#DDE1E5] min-h-screen p-6 md:p-12 dark:bg-gray-800">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-[100px] text-blue-600 mb-6 font-xanh">Báo giá</h1>
+        <h1 className="text-[100px] text-[#3669B5] mb-6 font-xanh">Báo giá</h1>
 
         <div className="space-y-6 font-manrope text-[32px]">
           <div>
@@ -14,7 +14,7 @@ export default function QuotationPage() {
           </div>
 
           <div>
-            <h3 className=" font-medium text-gray-900">Bước 1: Nhận yêu cầu</h3>
+            <h3 className="font-medium text-gray-900">Bước 1: Nhận yêu cầu</h3>
             <p className="mt-2 text-gray-700">
               Bạn gửi nội dung cần in qua email, Zalo. Nếu cần giao gặp? Hãy nói
               rõ để chúng tôi hỗ trợ tốt nhất có thể.
