@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import CurrentEvents from "@/components/current-event";
+import About from "@/components/about";
 import Service from "@/components/service";
 import Quotation from "@/components/quotation";
 import Blog from "@/components/blog";
@@ -24,7 +24,7 @@ export default function SingaporeArtMuseum() {
       </section>
 
       {/* Exhibitions Section */}
-      <CurrentEvents />
+      <About />
 
       {/* Exhibitions Section */}
       <Service />

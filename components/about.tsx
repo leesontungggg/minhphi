@@ -1,7 +1,7 @@
 import React from "react";
 // import { ArrowRight } from "lucide-react";
 
-export default function CurrentEvents() {
+export default function About() {
   return (
     <section className="container mx-auto px-4 py-16 font-oswald md:h-auto min-h-screen">
       <div className="flex flex-col md:flex-row justify-between items-start mb-8 h-full">
@@ -85,8 +85,6 @@ export default function CurrentEvents() {
           </div> */}
         </div>
       </div>
-
-      <div className="border-t border-gray-200 dark:border-gray-700 mt-8"></div>
     </section>
   );
 }

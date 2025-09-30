@@ -33,13 +33,16 @@ export default function Navbar() {
               >
                 Dịch vụ
               </Link>
-              <Link href="#" className="text-white  text-lg uppercase">
+              <Link href="/products" className="text-white  text-lg uppercase">
                 Sản phẩm
               </Link>
               <Link href="#" className="text-white  text-lg uppercase">
                 Báo giá
               </Link>
-              <Link href="#" className="text-white text-lg uppercase">
+              <Link
+                href="/goc-nghe-in"
+                className="text-white text-lg uppercase"
+              >
                 Góc Nghề In
               </Link>
               <Link
@@ -56,20 +59,20 @@ export default function Navbar() {
         <div className="hidden md:flex items-center space-x-2">
           <nav className="flex items-center space-x-8">
             <Link
-              href="/about"
+              href="/"
               className="text-white text-sm font-medium uppercase px-4 py-5"
             >
               Trang chủ
             </Link>
             <Link
-              href="/programmes"
+              href="#"
               className="text-white text-sm font-medium uppercase px-4 py-5"
             >
               Dịch vụ
             </Link>
 
             <Link
-              href="#"
+              href="/products"
               className="text-white text-sm font-medium uppercase px-4 py-5"
             >
               Sản phẩm
@@ -82,7 +85,7 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="#"
+              href="goc-nghe-in"
               className="text-white text-sm font-medium uppercase px-4 py-5"
             >
               Góc Nghề In
