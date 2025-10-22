@@ -9,7 +9,10 @@ import Product from "@/components/product";
 
 export default function SingaporeArtMuseum() {
   return (
-    <div className="min-h-screen bg-background text-foreground pt-[68px] md:pt-[92px]">
+    <div
+      className="min-h-screen bg-background text-foreground pt-[68px] md:pt-[92px]"
+      id="trang-chu"
+    >
       {/* Navigation */}
 
       {/* Hero Section */}

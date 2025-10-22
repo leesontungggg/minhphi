@@ -6,7 +6,7 @@ export default function GocNgheIn() {
     <div className="min-h-screen bg-background text-foreground">
       <section className="pt-20">
         <div className="h-[70vh] bg-[#DDE1E5]">
-          <div className="container mx-auto w-full h-full flex items-end justify-start py-[100px] text-[#3669B5] uppercase font-xanh text-[64px]">
+          <div className="container mx-auto w-full h-full flex items-end justify-start py-[200px] text-[#3669B5] uppercase font-xanh text-[64px]">
             <div className="w-[493px]">
               Góc <br />
               <p className="text-[96px] text-end ml-auto">Nghề In</p>
@@ -21,14 +21,14 @@ export default function GocNgheIn() {
           TRƯỚC KHI IN ẤN
         </h1>
         <div className="w-full flex flex-row-reverse justify-between gap-5">
-          <div className="w-[493px] h-[949px]">
+          <div className="w-3/5 h-auto">
             <img
               src="/warning-1.png"
               alt="nhung-dieu-can-luu-y-truoc-khi-in-an"
               className="w-full h-auto object-contain"
             />
           </div>
-          <div className="w-full flex flex-col font-manrope">
+          <div className="w-full flex flex-col font-manrope text-[24px]">
             Dù bạn in tem nhãn, brochure, danh thiếp hay bao bì sản phẩm – vẫn
             có vài điều rất nhỏ nhưng quan trọng mà bạn nên kiểm tra kỹ trước
             khi bắt đầu in: <br />
@@ -102,61 +102,63 @@ export default function GocNgheIn() {
 
       {/* In re la riet kiem */}
 
-      <section className="container mx-auto py-[120px] flex flex-col bg-[#80BFEF] pl-10">
-        <h1 className="font-oswald text-[64px] font-normal">
-          IN GIÁ RẺ LÀ TIẾT KIỆM?
-        </h1>
-        <div className="w-full flex flex-row justify-between gap-5">
-          <div className="w-[493px] h-[949px]">
-            <img
-              src="/warning-2.png"
-              alt="in-gia-re-la-tiet-kiem"
-              className="w-full h-auto object-contain"
-            />
+      <div className="w-full h-fit bg-[#80BFEF]">
+        <section className="container mx-auto py-[120px] flex flex-col bg-[#80BFEF]">
+          <h1 className="font-oswald text-[64px] font-normal">
+            IN GIÁ RẺ LÀ TIẾT KIỆM?
+          </h1>
+          <div className="w-full flex flex-row justify-between gap-20">
+            <div className="w-3/5 h-auto">
+              <img
+                src="/warning-2.png"
+                alt="in-gia-re-la-tiet-kiem"
+                className="w-full h-auto object-contain"
+              />
+            </div>
+            <div className="w-full flex flex-col font-manrope text-[24px]">
+              Trong ngành in, nhiều người vẫn tin rằng: “Cứ chỗ nào rẻ nhất là
+              tốt nhất. In mà, tờ giấy thôi mà!”
+              <br />
+              <br />
+              Nhưng sự thật là: in rẻ chưa chắc đã rẻ – thậm chí còn đắt nếu bạn
+              tính đủ.
+              <br />
+              <br />
+              Nhiều khách hàng đến Minh Phi trong tình trạng “mang vết thương”
+              từ chỗ in trước: brochure mới in bị lem mực ngay trang đầu, tem
+              nhãn dán không dính, bong sau 1 tuần, hộp giấy đặt cả ngàn cái
+              nhưng không đóng được vì bế lệch, khay giấy không cố định được sản
+              phẩm bên trong hộp… Cuối cùng phải... in\
+              <br />
+              <br />
+              lại từ đầu.
+              <br />
+              <br />
+              Tại Minh Phi, chúng tôi không chạy theo giá rẻ bất chấp. Chúng tôi
+              chọn cách làm rõ ràng – in đúng file – kiểm tra từng lô hàng trước
+              khi giao. Vì chúng tôi hiểu bạn không in để cho có. Bạn in để bán
+              hàng, để thuyết phục khách, để xây thương hiệu.
+              <br />
+              <br />
+              Hãy gửi thử file thiết kế bạn đang có – Minh Phi sẽ xem giúp và đề
+              xuất phương án in vừa đúng nhu cầu – vừa không lãng phí. Không
+              phải lúc nào cũng cần in nhiều, cũng không nhất thiết dùng loại
+              giấy đắt. Chỉ cần in cho đúng việc.
+            </div>
           </div>
-          <div className="w-full flex flex-col font-manrope">
-            Trong ngành in, nhiều người vẫn tin rằng: “Cứ chỗ nào rẻ nhất là tốt
-            nhất. In mà, tờ giấy thôi mà!”
-            <br />
-            <br />
-            Nhưng sự thật là: in rẻ chưa chắc đã rẻ – thậm chí còn đắt nếu bạn
-            tính đủ.
-            <br />
-            <br />
-            Nhiều khách hàng đến Minh Phi trong tình trạng “mang vết thương” từ
-            chỗ in trước: brochure mới in bị lem mực ngay trang đầu, tem nhãn
-            dán không dính, bong sau 1 tuần, hộp giấy đặt cả ngàn cái nhưng
-            không đóng được vì bế lệch, khay giấy không cố định được sản phẩm
-            bên trong hộp… Cuối cùng phải... in\
-            <br />
-            <br />
-            lại từ đầu.
-            <br />
-            <br />
-            Tại Minh Phi, chúng tôi không chạy theo giá rẻ bất chấp. Chúng tôi
-            chọn cách làm rõ ràng – in đúng file – kiểm tra từng lô hàng trước
-            khi giao. Vì chúng tôi hiểu bạn không in để cho có. Bạn in để bán
-            hàng, để thuyết phục khách, để xây thương hiệu.
-            <br />
-            <br />
-            Hãy gửi thử file thiết kế bạn đang có – Minh Phi sẽ xem giúp và đề
-            xuất phương án in vừa đúng nhu cầu – vừa không lãng phí. Không phải
-            lúc nào cũng cần in nhiều, cũng không nhất thiết dùng loại giấy đắt.
-            Chỉ cần in cho đúng việc.
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
       {/* Phan Van Khi Chon Noi In An */}
       <section className="container mx-auto py-[120px] flex flex-col">
-        <div className="w-full flex flex-row-reverse justify-between gap-5">
-          <div className="w-[493px] h-[949px]">
+        <div className="w-full flex flex-row-reverse justify-between gap-20">
+          <div className="w-3/5 h-auto">
             <img
               src="/warning-3.png"
               alt="phan-van-khi-chon-noi-in-an"
-              className="w-full h-auto object-contain"
+              className="w-full h-auto object-contain border-[#264F6C] border-2"
             />
           </div>
-          <div className="w-full flex flex-col font-manrope">
+          <div className="w-full flex flex-col font-manrope text-[24px]">
             <h1 className="font-oswald text-[64px] font-normal">
               Phân vân khi chọn nơi in ấn
             </h1>

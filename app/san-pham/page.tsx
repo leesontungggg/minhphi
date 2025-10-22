@@ -6,7 +6,7 @@ export default function Products() {
     <div className="min-h-screen bg-background text-foreground">
       <section className="pt-20">
         <div className="h-[70vh] bg-[#80BFEF]">
-          <div className="container mx-auto w-full h-full flex items-end justify-start py-[100px] text-white uppercase font-xanh text-[64px]">
+          <div className="container mx-auto w-full h-full flex items-end justify-start py-[200px] text-white uppercase font-xanh text-[64px]">
             <div className="w-[493px]">
               sản phẩm <br />
               <p className="text-[96px] text-end ml-auto">đã in ấn</p>

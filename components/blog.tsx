@@ -30,7 +30,7 @@ export default function Product() {
           Góc <br /> nghề in
         </h2>
         <a
-          href="#"
+          href="/goc-nghe-in"
           className="flex items-center text-sm text-gray-600 hover:text-blue-600 transition-colors"
         >
           See all <ArrowRight className="ml-1 h-4 w-4" />
@@ -44,7 +44,7 @@ export default function Product() {
               <img
                 src={product.image}
                 alt={product.alt}
-                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
+                className="w-full aspect-square object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
             <h3 className="text-[40px] font-normal uppercase font-oswald">

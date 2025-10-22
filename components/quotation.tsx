@@ -2,19 +2,25 @@ import React from "react";
 
 export default function QuotationPage() {
   return (
-    <div className="bg-[#DDE1E5] min-h-screen p-6 md:p-12 dark:bg-gray-800">
+    <div
+      className="bg-[#DDE1E5] min-h-screen p-6 md:p-12 dark:bg-gray-800"
+      id="bao-gia"
+    >
       <div className="max-w-6xl mx-auto">
         <h1 className="text-[100px] text-[#3669B5] mb-6 font-xanh">Báo giá</h1>
+        <h2 className="text-[40px] font-medium text-gray-900 uppercase font-oswald">
+          THIẾT KẾ BAO BÌ VÀ ĐÓNG GÓI
+        </h2>
 
         <div className="space-y-6 font-manrope text-[32px]">
           <div>
-            <h2 className="text-xl font-medium text-gray-900">
+            <h2 className="text-[30px] font-bold text-gray-900 font-manrope mt-12">
               Quy trình làm việc đơn giản - rõ ràng
             </h2>
           </div>
 
           <div>
-            <h3 className="font-medium text-gray-900">Bước 1: Nhận yêu cầu</h3>
+            <h3 className="font-bold text-gray-900">Bước 1: Nhận yêu cầu</h3>
             <p className="mt-2 text-gray-700">
               Bạn gửi nội dung cần in qua email, Zalo. Nếu cần giao gặp? Hãy nói
               rõ để chúng tôi hỗ trợ tốt nhất có thể.
@@ -22,7 +28,7 @@ export default function QuotationPage() {
           </div>
 
           <div>
-            <h3 className=" font-medium text-gray-900">
+            <h3 className=" font-bold text-gray-900">
               Bước 2: Tư vấn & báo giá
             </h3>
             <p className="mt-2 text-gray-700">
@@ -37,9 +43,7 @@ export default function QuotationPage() {
           </div>
 
           <div>
-            <h3 className=" font-medium text-gray-900">
-              Bước 3: Duyệt file in
-            </h3>
+            <h3 className=" font-bold text-gray-900">Bước 3: Duyệt file in</h3>
             <p className="mt-2 text-gray-700">
               Bạn gửi file in hoặc thiết kế sẵn (PDF, AI...). Chúng tôi kiểm tra
               file, xử lý lại (nếu cần) và gửi bạn kiểm tra lại.
@@ -47,7 +51,7 @@ export default function QuotationPage() {
           </div>
 
           <div>
-            <h3 className=" font-medium text-gray-900">
+            <h3 className=" font-bold text-gray-900">
               Bước 4: Sản xuất & giao hàng
             </h3>
             <p className="mt-2 text-gray-700">
