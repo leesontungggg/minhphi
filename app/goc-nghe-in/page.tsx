@@ -20,7 +20,7 @@ export default function GocNgheIn() {
           NHỮNG ĐIỀU NÊN LƯU Ý <br />
           TRƯỚC KHI IN ẤN
         </h1>
-        <div className="w-full flex flex-row-reverse justify-between gap-5">
+        <div className="w-full flex flex-row-reverse justify-between gap-5 mt-5">
           <div className="w-3/5 h-auto">
             <img
               src="/warning-1.png"
@@ -107,7 +107,7 @@ export default function GocNgheIn() {
           <h1 className="font-oswald text-[64px] font-normal">
             IN GIÁ RẺ LÀ TIẾT KIỆM?
           </h1>
-          <div className="w-full flex flex-row justify-between gap-20">
+          <div className="w-full flex flex-row justify-between gap-20 mt-10">
             <div className="w-3/5 h-auto">
               <img
                 src="/warning-2.png"
@@ -159,7 +159,7 @@ export default function GocNgheIn() {
             />
           </div>
           <div className="w-full flex flex-col font-manrope text-[24px]">
-            <h1 className="font-oswald text-[64px] font-normal">
+            <h1 className="font-oswald text-[64px] font-normal uppercase mb-10">
               Phân vân khi chọn nơi in ấn
             </h1>
             Nhiều khách từng hỏi báo giá, gửi file, thậm chí in thử… rồi để đó.
