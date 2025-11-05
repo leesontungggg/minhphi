@@ -106,21 +106,21 @@ export default function Products() {
         <div className="mt-[40px] grid grid-cols-3 gap-[40px]">
           <div className="w-[480px] aspect-square bg-gray-600">
             <img
-              src="/ve-thiep-moi-1.png"
+              src="/catalogue-1.jpg"
               alt="catalogue"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-[480px] aspect-square bg-gray-600">
             <img
-              src="/ve-thiep-moi-2.png"
+              src="/catalogue-2.jpg"
               alt="catalogue"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-[480px] aspect-square bg-gray-600">
             <img
-              src="/ve-thiep-moi-3.png"
+              src="/catalogue-3.jpg"
               alt="catalogue"
               className="w-full h-full object-cover"
             />
