@@ -6,7 +6,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#3669B5] text-white py-12 px-4 font-manrope">
+    <footer
+      className="w-full bg-[#3669B5] text-white py-12 px-4 font-manrope"
+      id="lien-he"
+    >
       <div className="container mx-auto flex flex-col md:flex-row items-start">
         <div className="mb-8 md:mb-0">
           <Link href="/">

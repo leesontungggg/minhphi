@@ -217,6 +217,18 @@ export default function Navbar() {
               Góc Nghề In
             </Link>
             <Link
+              onClick={(e: React.MouseEvent) => {
+                setCurrentPath("/#lien-he");
+                e.preventDefault();
+                if (typeof window === "undefined") return;
+                if (window.location.pathname === "/") {
+                  const el = document.getElementById("lien-he");
+                  if (el) el.scrollIntoView({ behavior: "smooth" });
+                  window.location.href = "#lien-he";
+                } else {
+                  window.location.href = "/#lien-he";
+                }
+              }}
               href="#"
               className="bg-black  px-4 py-2 text-white text-xs font-medium uppercase ml-4"
             >
