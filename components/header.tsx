@@ -43,19 +43,78 @@ export default function Navbar() {
           </SheetTrigger>
           <SheetContent side="right" className="bg-[#3669B5] border-none px-4">
             <nav className="flex flex-col space-y-6 mt-12">
-              <Link href="/about" className="text-white  text-lg uppercase">
+              <Link
+                onClick={(e: React.MouseEvent) => {
+                  setCurrentPath("/");
+                  e.preventDefault();
+                  if (typeof window === "undefined") return;
+                  if (window.location.pathname === "/") {
+                    const el = document.getElementById("trang-chu");
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
+                  } else {
+                    window.location.href = "/#trang-chu";
+                  }
+                }}
+                href="/"
+                className="text-white  text-lg uppercase"
+              >
                 Trang chủ
               </Link>
-              <Link href="#dich-vu" className="text-white  text-lg uppercase">
+              <Link
+                onClick={(e: React.MouseEvent) => {
+                  setCurrentPath("/#dich-vu");
+                  e.preventDefault();
+                  if (typeof window === "undefined") return;
+                  if (window.location.pathname === "/") {
+                    const el = document.getElementById("dich-vu");
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
+                    window.location.href = "#dich-vu";
+                  } else {
+                    window.location.href = "/#dich-vu";
+                  }
+                }}
+                href="#dich-vu"
+                className="text-white  text-lg uppercase"
+              >
                 Dịch vụ
               </Link>
-              <Link href="/san-pham" className="text-white  text-lg uppercase">
+              <Link
+                onClick={(e: React.MouseEvent) => {
+                  setCurrentPath("/san-pham");
+                  e.preventDefault();
+                  if (typeof window === "undefined") return;
+                  window.location.href = "/san-pham";
+                }}
+                href="/san-pham"
+                className="text-white  text-lg uppercase"
+              >
                 Sản phẩm
               </Link>
-              <Link href="#bao-gia" className="text-white  text-lg uppercase">
+              <Link
+                onClick={(e: React.MouseEvent) => {
+                  setCurrentPath("/#bao-gia");
+                  e.preventDefault();
+                  if (typeof window === "undefined") return;
+                  if (window.location.pathname === "/") {
+                    const el = document.getElementById("bao-gia");
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
+                    window.location.href = "#bao-gia";
+                  } else {
+                    window.location.href = "/#bao-gia";
+                  }
+                }}
+                href="#bao-gia"
+                className="text-white  text-lg uppercase"
+              >
                 Báo giá
               </Link>
               <Link
+                onClick={(e: React.MouseEvent) => {
+                  setCurrentPath("/goc-nghe-in");
+                  e.preventDefault();
+                  if (typeof window === "undefined") return;
+                  window.location.href = "/goc-nghe-in";
+                }}
                 href="/goc-nghe-in"
                 className="text-white text-lg uppercase"
               >
