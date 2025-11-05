@@ -7,19 +7,19 @@ export default function ServiceSection() {
       id="dich-vu"
     >
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-[100px] font-light text-[#3669B5] leading-tight font-xanh">
+        <h1 className="text-[60px] md:text-[100px] font-light text-[#3669B5] leading-tight font-xanh">
           Dịch Vụ
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-[30px] font-manrope">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-[16px] md:text-[30px] font-manrope">
           {/* Left Column */}
           <div className="space-y-10">
             {/* Offset Printing Section */}
             <div>
-              <h2 className="text-[30px] font-bold mb-4 dark:text-gray-200 uppercase font-oswald">
+              <h2 className="text-[16px] md:text-[30px] font-bold mb-4 dark:text-gray-200 uppercase font-oswald">
                 IN OFFSET
               </h2>
-              <p className="text-gray-700 mb-4 dark:text-gray-300 text-[30px] font-[400] font-oswald">
+              <p className="text-gray-700 mb-4 dark:text-gray-300 text-[16px] md:text-[30px] font-[400] font-oswald">
                 Số lượng lớn, giá tối ưu
               </p>
 
@@ -61,11 +61,11 @@ export default function ServiceSection() {
           {/* Right Column */}
           <div>
             {/* Digital Printing Section */}
-            <div className="border-l border-gray-300 pl-8 h-full dark:border-gray-600">
-              <h2 className="text-[30px] font-bold uppercase mb-4 dark:text-gray-200 font-oswald">
+            <div className="md:border-l border-gray-300 md:pl-8 h-full dark:border-gray-600">
+              <h2 className="text-[16px] md:text-[30px] font-bold uppercase mb-4 dark:text-gray-200 font-oswald">
                 IN KỸ THUẬT SỐ
               </h2>
-              <p className="text-gray-700 mb-4 dark:text-gray-300 text-[30px] font-oswald">
+              <p className="text-gray-700 mb-4 dark:text-gray-300 text-[16px] md:text-[30px] font-oswald">
                 Linh hoạt, nhanh chóng
               </p>
 
@@ -105,8 +105,8 @@ export default function ServiceSection() {
           </div>
         </div>
         {/* Label Printing Section */}
-        <div className="text-[30px] mt-8 font-manrope">
-          <h2 className="text-[30px] font-bold uppercase mb-2 dark:text-gray-200 font-oswald">
+        <div className="text-[16px] md:text-[30px] mt-8 font-manrope">
+          <h2 className="text-[16px] md:text-[30px] font-bold uppercase mb-2 dark:text-gray-200 font-oswald">
             IN TEM NHÃN, DECAL
           </h2>
 
@@ -129,8 +129,8 @@ export default function ServiceSection() {
         </div>
 
         {/* Packaging Design Section */}
-        <div className="text-[30px] mt-8 font-manrope">
-          <h2 className="text-[30px] font-bold uppercase mb-4 dark:text-gray-200 font-oswald">
+        <div className="text-[16px] md:text-[30px] mt-8 font-manrope">
+          <h2 className="text-[16px] md:text-[30px] font-bold uppercase mb-4 dark:text-gray-200 font-oswald">
             THIẾT KẾ BAO BÌ VÀ ĐÓNG GÓI
           </h2>
 

@@ -38,24 +38,21 @@ export default function Navbar() {
         <Sheet>
           <SheetTrigger asChild className="md:hidden">
             <Button variant="ghost" size="icon" className="text-white">
-              <Menu className="h-6 w-6" />
+              <Menu className="h-8 w-8" />
             </Button>
           </SheetTrigger>
-          <SheetContent side="right" className="bg-black border-gray-800">
+          <SheetContent side="right" className="bg-[#3669B5] border-none px-4">
             <nav className="flex flex-col space-y-6 mt-12">
               <Link href="/about" className="text-white  text-lg uppercase">
                 Trang chủ
               </Link>
-              <Link
-                href="/programmes"
-                className="text-white  text-lg uppercase"
-              >
+              <Link href="#dich-vu" className="text-white  text-lg uppercase">
                 Dịch vụ
               </Link>
-              <Link href="/products" className="text-white  text-lg uppercase">
+              <Link href="/san-pham" className="text-white  text-lg uppercase">
                 Sản phẩm
               </Link>
-              <Link href="#" className="text-white  text-lg uppercase">
+              <Link href="#bao-gia" className="text-white  text-lg uppercase">
                 Báo giá
               </Link>
               <Link
@@ -63,12 +60,6 @@ export default function Navbar() {
                 className="text-white text-lg uppercase"
               >
                 Góc Nghề In
-              </Link>
-              <Link
-                href="#"
-                className="bg-black  px-4 py-2 text-white text-sm font-medium uppercase inline-block"
-              >
-                Liên hệ
               </Link>
             </nav>
           </SheetContent>

@@ -40,7 +40,7 @@ export default function FineArtSection() {
     >
       <div className="container mx-auto">
         <div className="flex justify-between items-center mb-10">
-          <h2 className="text-[60px] md:text-[100px] font-light text-pink-500 font-xanh">
+          <h2 className="text-[60px] md:text-[60px] md:text-[100px] font-light text-pink-500 font-xanh">
             Fine Art
           </h2>
           <a
@@ -63,7 +63,7 @@ export default function FineArtSection() {
                 alt={exhibition.title}
                 className="w-full object-cover aspect-[450/350]"
               />
-              <h3 className="text-[30px] font-bold mb-2 text-black dark:text-white mt-[30px]">
+              <h3 className="text-[16px] md:text-[30px] font-bold mb-2 text-black dark:text-white mt-[30px]">
                 {exhibition.title}
               </h3>
               <div className="text-pink-500 text-base font-medium mb-1 text-[24px]">

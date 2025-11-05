@@ -109,7 +109,7 @@ export default function PartnershipSection() {
   return (
     <section className="py-16 px-4 bg-white dark:bg-gray-900">
       <div className="container mx-auto">
-        <h2 className="text-[60px] md:text-[100px] font-light text-pink-500 mb-8 font-xanh">
+        <h2 className="text-[60px] md:text-[60px] md:text-[100px] font-light text-pink-500 mb-8 font-xanh">
           Partnership
         </h2>
 

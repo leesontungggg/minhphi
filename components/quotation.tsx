@@ -7,11 +7,13 @@ export default function QuotationPage() {
       id="bao-gia"
     >
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-[100px] text-[#3669B5] mb-6 font-xanh">Báo giá</h1>
+        <h1 className="text-[60px] md:text-[100px] text-[#3669B5] mb-6 font-xanh">
+          Báo giá
+        </h1>
 
-        <div className="space-y-6 font-manrope text-[30px]">
+        <div className="space-y-6 font-manrope text-[16px] md:text-[30px]">
           <div>
-            <h2 className="text-[30px] font-bold text-gray-900 font-manrope mt-12">
+            <h2 className="text-[16px] md:text-[30px] font-bold text-gray-900 font-manrope mt-12">
               Quy trình làm việc đơn giản - rõ ràng
             </h2>
           </div>

@@ -30,7 +30,7 @@ export default function SubscribeNewsletter() {
     <section className="w-full bg-cyan-200 py-12 px-4 font-manrope">
       <div className="container mx-auto flex flex-col md:flex-row items-start justify-between gap-8">
         <div className="md:w-1/3">
-          <h2 className="text-[60px] md:text-[100px] font-light text-pink-500 mb-6 font-xanh">
+          <h2 className="text-[60px] md:text-[60px] md:text-[100px] font-light text-pink-500 mb-6 font-xanh">
             Subscribe/
             <br />
             Newsletter

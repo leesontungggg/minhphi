@@ -6,7 +6,7 @@ export default function About() {
     <section className="container mx-auto px-4 py-16 font-oswald md:h-auto min-h-screen">
       <div className="flex flex-col md:flex-row justify-between items-start mb-8 h-full">
         <div className="mb-8 md:mb-0 md:w-2/5 h-full flex flex-col">
-          <h2 className="text-[100px] font-light text-[#3669B5] leading-tight font-xanh">
+          <h2 className="text-[60px] md:text-[100px] font-light text-[#3669B5] leading-tight font-xanh">
             Về
             <br />
             Minh Phi
@@ -28,8 +28,10 @@ export default function About() {
           </div>
 
           <div className="flex flex-col">
-            <h6 className="text-[36px]">LÀM IN NHƯ CHÍNH MÌNH ĐANG DÙNG</h6>
-            <p className="text-[30px] font-light font-manrope mt-4">
+            <h6 className="text-[20px] md:text-[36px]">
+              LÀM IN NHƯ CHÍNH MÌNH ĐANG DÙNG
+            </h6>
+            <p className="text-[16px] md:text-[30px] font-light font-manrope mt-4">
               Minh Phi là đơn vị in ấn hoạt động tại TP. Dĩ An, Bình Dương từ
               năm 2023. Chúng tôi chuyên in offset và in kỹ thuật số với các sản
               phẩm như: tem nhãn – bao bì giấy – tờ rơi – danh thiếp – catalogue
@@ -42,10 +44,10 @@ export default function About() {
               gọn gàng và giao đúng hẹn.
             </p>
             <hr className="mt-[40px]" />
-            <h6 className="text-[36px] mt-[90px]">
+            <h6 className="text-[20px] md:text-[36px] mt-[45px] md:mt-[90px]">
               TRÁCH NHIỆM - RÕ RÀNG - LINH HOẠT
             </h6>
-            <p className="text-[30px] font-light font-manrope mt-4">
+            <p className="text-[16px] md:text-[30px] font-light font-manrope mt-4">
               Luôn kiểm tra kỹ trước khi in
               <br />
               Góp ý trung thực nếu thấy điểm chưa ổn

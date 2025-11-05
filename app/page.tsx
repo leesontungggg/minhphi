@@ -17,11 +17,11 @@ export default function SingaporeArtMuseum() {
 
       {/* Hero Section */}
       <section>
-        <div className="relative h-[70vh]">
+        <div className="relative h-[30vh] md:h-[70vh]">
           <img
             src="/hero.jpg"
             alt="Hero"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain md:object-cover"
           />
         </div>
       </section>

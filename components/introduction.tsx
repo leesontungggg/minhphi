@@ -4,7 +4,7 @@ export default function Introduction() {
   return (
     <section className="container mx-auto px-4 py-16 font-manrope">
       <div className="mb-12 grid grid-cols-1 md:grid-cols-3">
-        <h2 className="text-5xl font-normal text-pink-500 leading-tight font-xanh text-[100px]">
+        <h2 className="text-5xl font-normal text-pink-500 leading-tight font-xanh text-[60px] md:text-[100px]">
           About
           <br />
           Us

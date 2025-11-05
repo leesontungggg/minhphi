@@ -6,7 +6,7 @@ export default function TeamSection() {
     <section className="bg-[#242424] text-white py-16 px-4 font-manrope">
       <div className="container mx-auto">
         <div className="mb-16">
-          <h2 className="text-[100px] font-light text-white leading-tight font-xanh">
+          <h2 className="text-[60px] md:text-[100px] font-light text-white leading-tight font-xanh">
             Oh Art
             <br />
             Team
@@ -19,7 +19,7 @@ export default function TeamSection() {
             <h3 className="text-[40px] font-light tracking-wider uppercase font-xanh mt-12">
               MZUNG NGUYEN
             </h3>
-            <p className="text-white text-[30px]">Director</p>
+            <p className="text-white text-[16px] md:text-[30px]">Director</p>
           </div>
 
           <div className="flex flex-col items-start w-full">
@@ -27,7 +27,7 @@ export default function TeamSection() {
             <h3 className="text-[40px] font-light tracking-wider uppercase font-xanh mt-12">
               MINH THƯ
             </h3>
-            <p className="text-white text-[30px]">Producer</p>
+            <p className="text-white text-[16px] md:text-[30px]">Producer</p>
           </div>
 
           <div className="flex flex-col items-start w-full">
@@ -35,7 +35,9 @@ export default function TeamSection() {
             <h3 className="text-[40px] font-light tracking-wider uppercase font-xanh mt-12">
               LÊ VĨNH LỘC
             </h3>
-            <p className="text-white text-[30px]">Design Manager</p>
+            <p className="text-white text-[16px] md:text-[30px]">
+              Design Manager
+            </p>
           </div>
 
           <div className="flex flex-col items-start w-full">
@@ -43,7 +45,9 @@ export default function TeamSection() {
             <h3 className="text-[40px] font-light tracking-wider uppercase font-xanh mt-12">
               SULLA
             </h3>
-            <p className="text-white text-[30px]">Media Manager</p>
+            <p className="text-white text-[16px] md:text-[30px]">
+              Media Manager
+            </p>
           </div>
 
           <div className="flex flex-col items-start w-full">
@@ -51,7 +55,9 @@ export default function TeamSection() {
             <h3 className="text-[40px] font-light tracking-wider uppercase font-xanh mt-12">
               RIPP NGUYEN
             </h3>
-            <p className="text-white text-[30px]">Event Manager</p>
+            <p className="text-white text-[16px] md:text-[30px]">
+              Event Manager
+            </p>
           </div>
 
           <div className="flex flex-col items-start w-full">
@@ -59,7 +65,9 @@ export default function TeamSection() {
             <h3 className="text-[40px] font-light tracking-wider uppercase font-xanh mt-12">
               Thanh Taam - Lý
             </h3>
-            <p className="text-white text-[30px]">Senior Design</p>
+            <p className="text-white text-[16px] md:text-[30px]">
+              Senior Design
+            </p>
           </div>
         </div>
       </div>

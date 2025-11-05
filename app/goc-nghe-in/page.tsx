@@ -4,31 +4,33 @@ import React from "react";
 export default function GocNgheIn() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <section className="pt-20">
-        <div className="h-[70vh] bg-[#DDE1E5]">
-          <div className="container mx-auto w-full h-full flex items-end justify-start py-[200px] text-[#3669B5] uppercase font-xanh text-[64px]">
-            <div className="w-[493px]">
+      <section className="pt-16 md:pt-20">
+        <div className="h-[50vh] md:h-[70vh] bg-[#DDE1E5]">
+          <div className="container px-4 mx-auto w-full h-full flex items-end justify-start py-[100px] md:py-[200px] text-[#3669B5] uppercase font-xanh text-[32px] md:text-[64px]">
+            <div className="md:w-[493px]">
               Góc <br />
-              <p className="text-[96px] text-end ml-auto">Nghề In</p>
+              <p className="text-[48px] md:text-[96px] text-end ml-auto">
+                Nghề In
+              </p>
             </div>
           </div>
         </div>
       </section>
       {/* Goc Nghe In */}
-      <section className="container mx-auto py-[120px] flex flex-col">
-        <h1 className="font-oswald text-[64px] font-normal">
+      <section className="container px-4 md:px-0 mx-auto py-[60px] md:py-[120px] flex flex-col">
+        <h1 className="font-oswald text-[32px] md:text-[64px] font-normal">
           NHỮNG ĐIỀU NÊN LƯU Ý <br />
           TRƯỚC KHI IN ẤN
         </h1>
-        <div className="w-full flex flex-row-reverse justify-between gap-5 mt-5">
-          <div className="w-3/5 h-auto">
+        <div className="w-full flex-col flex md:flex-row-reverse justify-between gap-5 mt-5">
+          <div className="w-full md:w-3/5 h-auto">
             <img
               src="/warning-1.png"
               alt="nhung-dieu-can-luu-y-truoc-khi-in-an"
               className="w-full h-auto object-contain"
             />
           </div>
-          <div className="w-full flex flex-col font-manrope text-[24px]">
+          <div className="w-full flex flex-col font-manrope text-[16px] md:text-[24px] mt-4 md:mt-0">
             Dù bạn in tem nhãn, brochure, danh thiếp hay bao bì sản phẩm – vẫn
             có vài điều rất nhỏ nhưng quan trọng mà bạn nên kiểm tra kỹ trước
             khi bắt đầu in: <br />
@@ -72,16 +74,20 @@ export default function GocNgheIn() {
             lý. <br />
             <br />
             <strong>3. Số lượng và thời gian cần giao nên tính trước</strong>
-            <li>
-              In offset sẽ tiết kiệm khi in nhiều – nhưng cần thời gian sản xuất
-            </li>
-            <li>
-              In kỹ thuật số in nhanh – nhưng có giới hạn về độ dày và kích
-              thước giấy
-            </li>
-            <li>
-              Nên chừa ít nhất 1–2 ngày đệm nếu in cho sự kiện hoặc sản phẩm mới
-            </li>
+            <ol className="list-disc list-inside">
+              <li>
+                In offset sẽ tiết kiệm khi in nhiều – nhưng cần thời gian sản
+                xuất
+              </li>
+              <li>
+                In kỹ thuật số in nhanh – nhưng có giới hạn về độ dày và kích
+                thước giấy
+              </li>
+              <li>
+                Nên chừa ít nhất 1–2 ngày đệm nếu in cho sự kiện hoặc sản phẩm
+                mới
+              </li>
+            </ol>
             <br />
             In sát deadline dễ gặp rủi ro không mong muốn – nên chủ động luôn
             tốt hơn. <br />
@@ -90,10 +96,12 @@ export default function GocNgheIn() {
             <br />
             Khi hỏi báo giá, hãy chuẩn bị các thông tin sau:
             <br />
-            <li>Loại sản phẩm cần in</li>
-            <li>Kích thước – chất liệu – số lượng</li>
-            <li>File đã có hay cần hỗ trợ dàn trang</li>
-            <li>Thời gian mong muốn hoàn thành</li>
+            <ol className="list-disc list-inside">
+              <li>Loại sản phẩm cần in</li>
+              <li>Kích thước – chất liệu – số lượng</li>
+              <li>File đã có hay cần hỗ trợ dàn trang</li>
+              <li>Thời gian mong muốn hoàn thành</li>
+            </ol>
             <br />
             Càng rõ ràng từ đầu, càng tiết kiệm thời gian cho cả hai bên.
           </div>
@@ -103,19 +111,19 @@ export default function GocNgheIn() {
       {/* In re la riet kiem */}
 
       <div className="w-full h-fit bg-[#80BFEF]">
-        <section className="container mx-auto py-[120px] flex flex-col bg-[#80BFEF]">
-          <h1 className="font-oswald text-[64px] font-normal">
+        <section className="container px-4 md:px-0 mx-auto py-[60px] md:py-[120px] flex flex-col bg-[#80BFEF]">
+          <h1 className="font-oswald text-[32px] md:text-[64px] font-normal">
             IN GIÁ RẺ LÀ TIẾT KIỆM?
           </h1>
-          <div className="w-full flex flex-row justify-between gap-20 mt-10">
-            <div className="w-3/5 h-auto">
+          <div className="w-full flex flex-col md:flex-row justify-between gap-10 md:gap-20 mt-10">
+            <div className="w-full md:w-3/5 h-auto">
               <img
                 src="/warning-2.png"
                 alt="in-gia-re-la-tiet-kiem"
                 className="w-full h-auto object-contain"
               />
             </div>
-            <div className="w-full flex flex-col font-manrope text-[24px]">
+            <div className="w-full flex flex-col font-manrope text-[16px] md:text-[24px]">
               Trong ngành in, nhiều người vẫn tin rằng: “Cứ chỗ nào rẻ nhất là
               tốt nhất. In mà, tờ giấy thôi mà!”
               <br />
@@ -146,19 +154,19 @@ export default function GocNgheIn() {
         </section>
       </div>
       {/* Phan Van Khi Chon Noi In An */}
-      <section className="container mx-auto py-[120px] flex flex-col">
-        <div className="w-full flex flex-row-reverse justify-between gap-20">
-          <div className="w-3/5 h-auto">
+      <section className="container px-4 md:px-0 mx-auto py-[60px] md:py-[120px] flex flex-col">
+        <h1 className="font-oswald text-[32px] md:text-[64px] font-normal uppercase mb-10">
+          Phân vân khi chọn nơi in ấn
+        </h1>
+        <div className="w-full flex flex-col md:flex-row-reverse justify-between gap-10 md:gap-20">
+          <div className="w-full md:w-3/5 h-auto">
             <img
               src="/warning-3.png"
               alt="phan-van-khi-chon-noi-in-an"
               className="w-full h-auto object-contain border-[#264F6C] border-2"
             />
           </div>
-          <div className="w-full flex flex-col font-manrope text-[24px]">
-            <h1 className="font-oswald text-[64px] font-normal uppercase mb-10">
-              Phân vân khi chọn nơi in ấn
-            </h1>
+          <div className="w-full flex flex-col font-manrope text-[16px] md:text-[24px]">
             Nhiều khách từng hỏi báo giá, gửi file, thậm chí in thử… rồi để đó.
             Và chúng tôi hiểu lý do đằng sau đó.
             <br />

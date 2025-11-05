@@ -26,7 +26,7 @@ export default function Product() {
   return (
     <section className="max-w-6xl mx-auto px-4 py-12 md:py-16">
       <div className="flex justify-between items-center mb-8 border-b border-gray-200 pb-2">
-        <h2 className="text-[100px] font-light text-[#3669B5] leading-tight font-xanh">
+        <h2 className="text-[60px] md:text-[100px] font-light text-[#3669B5] leading-tight font-xanh">
           Sản phẩm
         </h2>
         <a
@@ -47,7 +47,7 @@ export default function Product() {
                 className="w-full aspect-square object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
-            <h3 className="text-[40px] font-normal uppercase font-oswald">
+            <h3 className="text-[20px] md:text-[40px] font-normal uppercase font-oswald">
               {product.title}
             </h3>
           </div>
