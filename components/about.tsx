@@ -29,7 +29,7 @@ export default function About() {
 
           <div className="flex flex-col">
             <h6 className="text-[36px]">LÀM IN NHƯ CHÍNH MÌNH ĐANG DÙNG</h6>
-            <p className="text-[32px] font-light font-manrope mt-4">
+            <p className="text-[30px] font-light font-manrope mt-4">
               Minh Phi là đơn vị in ấn hoạt động tại TP. Dĩ An, Bình Dương từ
               năm 2023. Chúng tôi chuyên in offset và in kỹ thuật số với các sản
               phẩm như: tem nhãn – bao bì giấy – tờ rơi – danh thiếp – catalogue
@@ -45,7 +45,7 @@ export default function About() {
             <h6 className="text-[36px] mt-[90px]">
               TRÁCH NHIỆM - RÕ RÀNG - LINH HOẠT
             </h6>
-            <p className="text-[32px] font-light font-manrope mt-4">
+            <p className="text-[30px] font-light font-manrope mt-4">
               Luôn kiểm tra kỹ trước khi in
               <br />
               Góp ý trung thực nếu thấy điểm chưa ổn

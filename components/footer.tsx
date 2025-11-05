@@ -23,7 +23,7 @@ export default function Footer() {
           {/* <img src="/logo.png" alt="Logo" className="h-[240px] w-auto" /> */}
         </div>
 
-        <div className="flex flex-col ml-auto leading-16 text-[32px] font-manrope">
+        <div className="flex flex-col ml-auto leading-16 text-[30px] font-manrope">
           CÔNG TY TNHH MTV MINH PHI <br />
           263 Trần Hưng Đạo, Khu phố Tây A, Phường Đông Hoà, Tp.HCM <br />
           <div>

@@ -84,7 +84,7 @@ export default function FilmSection() {
                 alt={exhibition.title}
                 className="w-full object-cover aspect-[450/350]"
               />
-              <h3 className="text-[32px] font-bold mb-2 text-black dark:text-white mt-[30px]">
+              <h3 className="text-[30px] font-bold mb-2 text-black dark:text-white mt-[30px]">
                 {exhibition.title}
               </h3>
               <div className="text-pink-500 text-base font-medium mb-1 text-[24px]">

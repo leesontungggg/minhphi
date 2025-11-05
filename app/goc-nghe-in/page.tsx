@@ -128,10 +128,7 @@ export default function GocNgheIn() {
               từ chỗ in trước: brochure mới in bị lem mực ngay trang đầu, tem
               nhãn dán không dính, bong sau 1 tuần, hộp giấy đặt cả ngàn cái
               nhưng không đóng được vì bế lệch, khay giấy không cố định được sản
-              phẩm bên trong hộp… Cuối cùng phải... in\
-              <br />
-              <br />
-              lại từ đầu.
+              phẩm bên trong hộp… Cuối cùng phải... in lại từ đầu.
               <br />
               <br />
               Tại Minh Phi, chúng tôi không chạy theo giá rẻ bất chấp. Chúng tôi

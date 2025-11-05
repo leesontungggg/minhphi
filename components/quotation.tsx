@@ -9,7 +9,7 @@ export default function QuotationPage() {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-[100px] text-[#3669B5] mb-6 font-xanh">Báo giá</h1>
 
-        <div className="space-y-6 font-manrope text-[32px]">
+        <div className="space-y-6 font-manrope text-[30px]">
           <div>
             <h2 className="text-[30px] font-bold text-gray-900 font-manrope mt-12">
               Quy trình làm việc đơn giản - rõ ràng
@@ -19,7 +19,7 @@ export default function QuotationPage() {
           <div>
             <h3 className="font-bold text-gray-900">Bước 1: Nhận yêu cầu</h3>
             <p className="mt-2 text-gray-700">
-              Bạn gửi nội dung cần in qua email, Zalo. Nếu cần giao gặp? Hãy nói
+              Bạn gửi nội dung cần in qua email, Zalo. Nếu cần giao gấp? Hãy nói
               rõ để chúng tôi hỗ trợ tốt nhất có thể.
             </p>
           </div>
