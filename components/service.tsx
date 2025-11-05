@@ -11,15 +11,15 @@ export default function ServiceSection() {
           Dịch Vụ
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-[30px] font-oswald">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-[32px] font-manrope">
           {/* Left Column */}
           <div className="space-y-10">
             {/* Offset Printing Section */}
             <div>
-              <h2 className="text-3xl font-bold mb-4 dark:text-gray-200 uppercase">
+              <h2 className="text-[32px] font-bold mb-4 dark:text-gray-200 uppercase font-oswald">
                 IN OFFSET
               </h2>
-              <p className="text-gray-700 mb-4 dark:text-gray-300 text-3xl font-[400]">
+              <p className="text-gray-700 mb-4 dark:text-gray-300 text-[32px] font-[400] font-oswald">
                 Số lượng lớn, giá tối ưu
               </p>
 
@@ -62,10 +62,10 @@ export default function ServiceSection() {
           <div>
             {/* Digital Printing Section */}
             <div className="border-l border-gray-300 pl-8 h-full dark:border-gray-600">
-              <h2 className="text-3xl font-bold uppercase mb-4 dark:text-gray-200">
+              <h2 className="text-[32px] font-bold uppercase mb-4 dark:text-gray-200 font-oswald">
                 IN KỸ THUẬT SỐ
               </h2>
-              <p className="text-gray-700 mb-4 dark:text-gray-300 text-3xl">
+              <p className="text-gray-700 mb-4 dark:text-gray-300 text-[32px] font-oswald">
                 Linh hoạt, nhanh chóng
               </p>
 
@@ -105,12 +105,14 @@ export default function ServiceSection() {
           </div>
         </div>
         {/* Label Printing Section */}
-        <div className="text-[30px] mt-8 font-oswald">
-          <h2 className="text-3xl font-bold uppercase mb-2 dark:text-gray-200">
+        <div className="text-[32px] mt-8 font-manrope">
+          <h2 className="text-[32px] font-bold uppercase mb-2 dark:text-gray-200 font-oswald">
             IN TEM NHÃN, DECAL
           </h2>
 
-          <p className="mb-2 dark:text-gray-300 font-[300]">Phù hợp với:</p>
+          <p className="mb-2 dark:text-gray-300 font-[300] font-manrope">
+            Phù hợp với:
+          </p>
           <ul className="space-y-1 list-disc list-inside font-[300]">
             {[
               "Shop online, handmade, mỹ phẩm",
@@ -127,12 +129,14 @@ export default function ServiceSection() {
         </div>
 
         {/* Packaging Design Section */}
-        <div className="text-[30px] mt-8 font-oswald">
-          <h2 className="text-3xl font-bold uppercase mb-4 dark:text-gray-200">
+        <div className="text-[32px] mt-8 font-manrope">
+          <h2 className="text-[32px] font-bold uppercase mb-4 dark:text-gray-200 font-oswald">
             THIẾT KẾ BAO BÌ VÀ ĐÓNG GÓI
           </h2>
 
-          <p className="mb-2 dark:text-gray-300 font-[300]">Phù hợp với:</p>
+          <p className="mb-2 dark:text-gray-300 font-[300] font-manrope">
+            Phù hợp với:
+          </p>
           <ul className="space-y-1 list-disc list-inside font-[300]">
             {[
               "Doanh nghiệp, cửa hàng cần đóng gói lại theo thương hiệu riêng (khách hàng có trách đảm bảo nguồn gốc sản phẩm, thương hiệu cần in là hợp pháp)",
