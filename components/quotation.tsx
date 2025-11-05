@@ -8,9 +8,6 @@ export default function QuotationPage() {
     >
       <div className="max-w-6xl mx-auto">
         <h1 className="text-[100px] text-[#3669B5] mb-6 font-xanh">Báo giá</h1>
-        <h2 className="text-[40px] font-medium text-gray-900 uppercase font-oswald">
-          THIẾT KẾ BAO BÌ VÀ ĐÓNG GÓI
-        </h2>
 
         <div className="space-y-6 font-manrope text-[32px]">
           <div>

@@ -6,19 +6,19 @@ export default function Product() {
     {
       id: 1,
       title: "những điều nên lưu ý trước khi in ấn",
-      image: "/ve thiep moi.jpg",
+      image: "/goc-nghe-in-1.jpg",
       alt: "Vé thiệp mời với thiết kế màu xanh nhạt",
     },
     {
       id: 2,
       title: "in giá rẻ là tiết kiệm?",
-      image: "/catalogue.jpg",
+      image: "/goc-nghe-in-2.jpg",
       alt: "Catalogue màu xanh dương",
     },
     {
       id: 3,
       title: "khi phân vân chọn nơi in ấn",
-      image: "/tem nhan.jpg",
+      image: "/goc-nghe-in-3.jpg",
       alt: "Tem nhãn màu xanh lá",
     },
   ];
